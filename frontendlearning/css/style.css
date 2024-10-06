@@ -1,0 +1,62 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.edu-au-vic-wa-nt-guides-<uniquifier> {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+@font-face {
+    font-family: fantasy;
+    font-weight: normal;
+    font-style: normal;
+    src: url("fonts/EduAUVICWANTDots-VariableFont_wght.ttf");
+}
+.image-container {
+background-image:url("img/frontend.jpg");
+width: 900px;
+height: 500px;
+background-size: 100%;
+display: block;
+background-repeat: no-repeat;
+}   
+.roma {
+background-image: url("img/roma.jpg");
+background-size: 100%;
+width: 400px;
+height: 400px;
+display: block;
+background-repeat: no-repeat;
+margin: 20px;
+}
+.shyrik {
+    background-image: url("img/sanya.jpg");
+    background-size: 100%;
+    width: 400px;
+    height: 400px;
+    display: block;
+    background-repeat: no-repeat;
+    margin: 20px;
+    }
+.alex {
+    background-image: url("img/Alex.jpg");
+    background-size: 100%;
+    width: 400px;
+    height: 400px;
+    display: block;
+    background-repeat: no-repeat;
+    margin: 20px;
+    }
+.nurik {
+    background-image: url("img/nur.webp");
+    background-size: 100%;
+    width: 400px;
+    height: 400px;
+    display: block;
+    background-repeat: no-repeat;
+    margin: 20px;
+    }
+    ul {
+font-family: opensans;
+    }
