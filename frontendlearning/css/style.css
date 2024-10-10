@@ -1,9 +1,14 @@
-@font-face {
-    font-family: fantasy;
-    font-weight: normal;
+.gees {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
-    src: url("fonts/EduAUVICWANTDots-VariableFont_wght.ttf");
-}
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+  }
 .image-container {
 background-image:url("img/frontend.jpg");
 width: 900px;
@@ -23,7 +28,7 @@ margin: 20px;
 }
 .shyrik {
     background-image: url("img/sanya.jpg");
-    background-size: 100%;
+    background-size: cover;
     width: 400px;
     height: 400px;
     display: block;
@@ -48,3 +53,6 @@ margin: 20px;
     background-repeat: no-repeat;
     margin: 20px;
     }
+
+span {
+}
